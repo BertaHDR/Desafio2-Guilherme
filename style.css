@@ -8,6 +8,12 @@ header {
     margin: 0 auto;
 }
 
+.imagem {
+    border-color: rgb(201, 131, 1);
+    border-width: 2px;
+    border-style: solid;
+}
+
 nav {
     position: absolute;
     top: 117px;
