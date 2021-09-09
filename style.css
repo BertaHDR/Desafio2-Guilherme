@@ -3,9 +3,7 @@ header {
 }
 
 .box {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .imagem {
@@ -16,9 +14,8 @@ header {
 }
 
 nav {
-    position: absolute;
-    top: 117px;
-    right: 0;
+    text-align: center;
+   
 }
 
 nav li {
