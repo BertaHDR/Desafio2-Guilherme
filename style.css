@@ -56,3 +56,13 @@ nav a:active {
 p {
     padding: 10px;
 }
+
+footer {
+    text-align: center;
+    background: url(rodape.jpg);
+}
+
+footer p {
+    padding: 125px 0 0 0;
+    color: darkgray;
+}
