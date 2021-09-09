@@ -1,3 +1,19 @@
+header {
+    background: black;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
 .title {
     text-align: center;
     height: 40px;
@@ -8,4 +24,8 @@
 .paragrafo {
     text-align: center;
     font-size: 20px;
+}
+
+p {
+    padding: 10px;
 }
