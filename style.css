@@ -1,5 +1,8 @@
 .title {
     text-align: center;
+    height: 40px;
+    padding: 20px;
+    font-size: 35px;
 }
 
 .paragrafo {
