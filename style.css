@@ -11,10 +11,12 @@ header {
     border-width: 2px;
     border-style: solid;
     border-radius: 180px;
+    padding: 15px;
 }
 
 nav {
     text-align: center;
+    padding: 15px;
    
 }
 
@@ -28,6 +30,15 @@ nav a {
     color: white;
     font-size: 25px;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: gold;
+    font-size: 28px;
+}
+
+nav a:active {
+    color: darkgoldenrod;
 }
 
 .title {
