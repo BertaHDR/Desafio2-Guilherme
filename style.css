@@ -9,6 +9,14 @@ header {
     background: var(--header);
 }
 
+.imagem {
+    border-color: rgb(0, 0, 0);
+    border-width: 0;
+    border-style: solid;
+    border-radius: 180px;
+    padding: 15px;
+}
+
 body {
     background-color: var(--background);
 }
@@ -67,13 +75,6 @@ label:active:active {
     text-align: center;
 }
 
-.imagem {
-    border-color: rgb(0, 0, 0);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 180px;
-    padding: 15px;
-}
 
 nav {
     text-align: center;
