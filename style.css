@@ -1,17 +1,12 @@
 html {
     --background: #FCFCFC;
-    --cor-titulo: #000000;
-    --cor-texto: #333333;
+    --cortitulo: #000000;
+    --cortexto: #333333;
+    --header: #000000;
 }
 
 header {
-    background: black;
-    border-width: 2px;  
-    border-color: white;
-    border-style: solid;
-    border-top-color: black;
-    border-right-color: black;
-    border-left-color: black;
+    background: var(--header);
 }
 
 body {
@@ -19,11 +14,11 @@ body {
 }
 
 body p {
-    color: var(--cor-texto);
+    color: var(--cortexto);
 }
 
 body h2 {
-    color: var(--cor-titulo);
+    color: var(--cortitulo);
 }
     
 input[type=checkbox] {

@@ -3,19 +3,19 @@ const checkbox = document.querySelector("input[name=tema]");
 
 const coresIniciais = {
     background: window.getComputedStyle(html).getPropertyValue("--background"),
-    backgroundPainel: window.getComputedStyle(html).getPropertyValue("--background-painel"),
-    corTitulo: window.getComputedStyle(html).getPropertyValue("--cor-titulo"),
-    corTexto: window.getComputedStyle(html).getPropertyValue("--cor-texto"),
+    corTitulo: window.getComputedStyle(html).getPropertyValue("--cortitulo"),
+    corTexto: window.getComputedStyle(html).getPropertyValue("--cortexto"),
+    header: window.getComputedStyle(html).getPropertyValue("--header"),
 }
 
 const darkMode = {
-    background: "#333333",
-    backgroundPainel: "#434343",
+    background: "#000000",
     corTitulo: "#cacaca",
     corTexto: "#cacaca",
+    header: "#202020",
 }
 
-const transformKey = key => "--" + key.replace(/[(A-Z)]/, "-$1").toLowerCase()
+const transformKey = key => "--" + key.replace(/[(A-Z)]/, "t").toLowerCase()
 
 const changeColors = (colors) => {
     Object.keys(colors).map(key => 
