@@ -41,6 +41,15 @@ input:checked + label {
     background: var(--color-headings);
 }
 
+input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+label:active:active {
+    width: 45px;
+}
+
 .box {
     text-align: center;
 }
