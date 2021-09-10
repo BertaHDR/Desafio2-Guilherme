@@ -1,3 +1,8 @@
+html {
+    --background: white;
+    --text: black;
+}
+
 header {
     background: black;
     border-width: 2px;  
