@@ -15,7 +15,7 @@ const darkMode = {
     corTexto: "#cacaca",
 }
 
-const transformKey = key => "--" + key.replace(/[(A-Z)]/, "-p").toLowerCase()
+const transformKey = key => "--" + key.replace(/[(A-Z)]/, "-$1").toLowerCase()
 
 const changeColors = (colors) => {
     Object.keys(colors).map(key => 

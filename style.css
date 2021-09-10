@@ -1,6 +1,5 @@
 html {
     --background: #FCFCFC;
-    --background-painel: #EBEBEB;
     --cor-titulo: #000000;
     --cor-texto: #333333;
 }
@@ -15,10 +14,18 @@ header {
     border-left-color: black;
 }
 
-body p {
-    color: #333333
+body {
+    background-color: var(--background);
 }
 
+body p {
+    color: var(--cor-texto);
+}
+
+body h2 {
+    color: var(--cor-titulo);
+}
+    
 input[type=checkbox] {
     height: 0;
     width: 0;
