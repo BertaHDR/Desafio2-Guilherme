@@ -1,3 +1,10 @@
+html {
+    --background: #FCFCFC;
+    --background-panel: #EBEBEB;
+    --cor-titulo: #000000;
+    --color-text: #333333;
+}
+
 header {
     background: black;
     border-width: 2px;  
