@@ -50,7 +50,7 @@ nav a:active {
 .title {
     text-align: center;
     height: 40px;
-    padding: 20px;
+    padding: 1em 0;
     font-size: 35px;
 }
 
