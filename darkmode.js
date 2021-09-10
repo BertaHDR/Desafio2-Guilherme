@@ -1,4 +1,4 @@
-const tema = {
+const temas = {
     ligth: {
         backgroud: "white",
         text: "black",    
@@ -8,3 +8,11 @@ const tema = {
         text: "white",
     }
 };
+
+function setTheme(novoTema) {
+    const corTemas = temas[novoTema];
+
+    Object.keys(corTemas).map(function(key){
+        html.style.setProperty(`--${key}`, corTemas[key]);
+    })
+}
