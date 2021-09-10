@@ -63,6 +63,10 @@ p {
     padding: 10px;
 }
 
+#mapa-uri {
+    margin: 0 0 1em;
+}
+
 footer {
     text-align: center;
     background: url(rodape.jpg);
